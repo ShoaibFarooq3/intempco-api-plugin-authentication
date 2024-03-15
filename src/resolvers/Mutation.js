@@ -228,7 +228,7 @@ export default {
     const adminCount = await Accounts.findOne({
       _id: userId,
     });
-    // console.log("adminCount", adminCount);
+    console.log("adminCount", adminCount);
     if (userId) {
       const account = {
         _id: userId,
